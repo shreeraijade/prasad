@@ -1,0 +1,82 @@
+/* src/components/Job.css */
+.Job {
+    text-align: center;
+    height: 83vh;
+  }
+  
+  .Job-header {
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 40px;
+    background-image: url('C:\Users\Shreyas\OneDrive\Desktop\CreaterShip\prasad\public\Help-with-writing-an-executive-resume[1].jpg');
+    background-size: cover;
+     /* Darker background with opacity */
+}
+
+.buttt{
+    width: 80px;
+}
+.dark{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.634);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+  .SearchBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .SearchBar input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    width: 150%;
+  }
+  
+  .SearchBar button {
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #b300ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .CategoryList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .CategoryItem {
+    background-color: #e28cff;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .CategoryItem h3 {
+    margin: 0;
+  }
+  
+  .CategoryItem p {
+    margin: 10px 0 0;
+  }

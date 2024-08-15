@@ -1,0 +1,65 @@
+.whoYouAre {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centdiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.creatordiv, .companydiv {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    background-size: cover;
+    color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.creatordiv {
+    background-image: url('C:/Users/Shreyas/OneDrive/Desktop/CreaterShip/prasad/public/WhatsApp Image 2024-07-20 at 12.04.08_51836a6e.jpg');
+}
+
+.companydiv {
+    background-image: url('C:/Users/Shreyas/OneDrive/Desktop/CreaterShip/prasad/public/laptop-table-with-opened-code-editor-programming-style-technology-background_946657-18862.avif');
+}
+
+.creatordiv:hover, .companydiv:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.179);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 200px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wlabel {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card span {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,63 @@
+
+
+.Home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* General Styling */
+
+
+  
+  /* Navbar Styling */
+
+  
+  /* Section Styling */
+  section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+    
+    height: 100vh;
+    width: inherit;
+  }
+
+  .content span{
+    font-size: 300px;
+  }
+
+  
+  section .content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .creator {
+    background-image: url('C:\Users\Shreyas\OneDrive\Desktop\CreaterShip\prasad\public\WhatsApp Image 2024-07-20 at 12.04.08_51836a6e.jpg'); /* Update with your image path */
+  }
+  
+  .company {
+    background-image: url('C:\Users\Shreyas\OneDrive\Desktop\CreaterShip\prasad\public\laptop-table-with-opened-code-editor-programming-style-technology-background_946657-18862.avif'); /* Update with your image path */
+  }
+  
+  /* Overlay */
+  section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(93, 93, 93, 0.329); /* Adjust the overlay color and opacity as needed */
+    z-index: 1;
+  }
+  

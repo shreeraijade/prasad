@@ -1,0 +1,182 @@
+.navbar {
+            width: inherit;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgba(19, 19, 19, 0);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.321);
+            color: rgb(157, 0, 200);
+            position: relative; 
+            top: 0;  
+            z-index: 1000; 
+}
+
+.logoa{
+    text-decoration: none;
+    color: rgb(157, 0, 200);
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links a {
+    color: rgb(157, 0, 200);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    position: relative;
+}
+
+.navbar .nav-links a:hover {
+    color: #480071;
+}
+
+.navbar .nav-links a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #480071;
+    transition: width 0.3s;
+}
+
+.navbar .nav-links a:hover::after {
+    width: 100%;
+}
+
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 15px;
+}
+
+.navbar .search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #bb00ff;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    transition: width 0.4s ease-in-out;
+    width: 0;
+}
+
+.navbar .search-bar input:focus {
+    width: 200px;
+}
+
+.navbar .search-bar button {
+    padding: 20px 20px;
+    font-size: 16px;
+    border: 2px solid #9100ca;
+    background-color: #9100ca;
+    color: #be00ee;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-image: url("C:\Users\Shreyas\OneDrive\Desktop\CreaterShip\prasad\public\search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar .search-bar button:hover {
+    background-color: #a200ff;
+}
+
+.navbar .profile {
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.navbar .profile:hover {
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    color: #480071;
+}
+
+
+.navbar .profile::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #480071;
+    transition: width 0.3s;
+    
+}
+
+.navbar .profile:hover::after {
+    color: #ffffff;
+    width: 100%;
+}
+
+.navbar .profile:hover .dropdown {
+    display: block;
+}
+
+.navbar .dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.222);
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: smaller;
+}
+
+.navbar .dropdown a {
+    display: block;
+    padding: 10px 20px;
+    color: rgb(157, 0, 200);
+    text-decoration: none;
+}
+
+.navbar .dropdown a:hover {
+   
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .navbar .nav-links a {
+        margin: 5px 0;
+    }
+
+    .navbar .search-bar {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .navbar .search-bar input {
+        width: 100%;
+        border-radius: 25px;
+        transition: none;
+    }
+
+    .navbar .search-bar button {
+        display: none;
+    }
+}

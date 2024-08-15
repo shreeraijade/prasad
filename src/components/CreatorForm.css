@@ -1,0 +1,74 @@
+.creator-div{
+    width: inherit;
+    height: max-content;
+    display: flex;    
+}
+
+.creator-img{
+   width: 50%;
+   background-image: url('C:\Users\Shreyas\OneDrive\Desktop\CreaterShip\prasad\public\creator.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.creator-form {
+    max-width: 600px;
+    margin: 20px;
+    margin-right: 0px;
+    padding: 40px;
+    width: 50%;
+    border-radius: 8px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.321);
+  }
+  
+  .creator-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 10px;
+  }
+
+  #bio{
+    height: 20px;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #bb00ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #7800a4;
+  }
+
+  
+  
